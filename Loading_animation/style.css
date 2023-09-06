@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh; 
+}
+@keyframes rotate{
+ 0%{
+    transform: rotate(0deg);
+ }
+ 100%{
+    transform: rotate(360deg);
+ }
+}
+.rotation{
+    display: block;
+    height:10em;
+    width:10em;
+    border:solid;
+    border-radius: 50%;
+    border-top-color: cornflowerblue;
+    border-bottom-color: antiquewhite;
+    border-left-color: antiquewhite;
+    border-right-color: antiquewhite;
+    border-width:1em;
+    animation:rotate 2s linear infinite;
+}
+.hey{
+    animation-name:rotate; 
+    animation-duration: 3s;
+    animation-timing-function: ease-in; 
+}
