@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+  --red:#D01C28
+}
+*{
+  margin:0%;
+  padding:0%;
+}
+body{
+  font-family: 'Poppins', sans-serif;  
+}
+.Poster{
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+nav{
+  display:flex;
+  justify-content: space-between;
+  width: 1280px;
+  height: 72px;
+  margin: 0 auto;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+.Shoeimage{
+  width: 530px;
+  height: 487.061767578125px;
+
+}
+button{
+  all: unset;
+  font-weight: 500;
+  padding:6px 16px;
+  background-color: var(--red);
+  height: 32px;
+  color: white;
+}
+.Content{ 
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.Moto{
+  width: 595px;
+  height: 306px;
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px;
+}
+.description{
+  margin-top: 5%;
+  width: 404px;
+  height: 91px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5A5959; 
+}
+.Buttons{
+  margin-top: 5%;
+}
+.ShopNow{
+  all: unset;
+  width: Hug (150px);
+  height: Hug (41px);
+  padding: 6px 16px 6px 16px;
+  gap: 10px;
+  background-color: #D01C28;
+}
+.Category{
+  all: unset;
+  width: Hug (141px);
+  height: Hug (41px);
+  padding: 6px 16px 6px 16px;
+  border: 1px;
+  border: 1px solid #000000;
+  color: #000000;
+  gap: 10px;
+  margin-left: 40px ;
+}
+.links{
+  margin-top: 5%;
+  width: 131px;
+  height: 19px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5A5959;
+}
